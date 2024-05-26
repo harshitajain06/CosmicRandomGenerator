@@ -2,7 +2,7 @@
   "expo": {
     "name": "CosmicRandomGenerator",
     "slug": "CosmicRandomGenerator",
-    "version": "1.0.0",
+    "version": "3.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "myapp",
@@ -19,7 +19,9 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.jainharshita0604.CosmicRandomGenerator",
+      "versionCode": 2
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +33,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "2e7e114f-7807-4bd8-bf68-90ef9fe3d5d1"
+      }
     }
   }
 }
